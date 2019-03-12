@@ -57,5 +57,6 @@ print(n)
 
 """
 # ========================================================
+# Utilizando módulos externos:
 
-import p
+# Atualizar depois!
