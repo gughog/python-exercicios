@@ -40,8 +40,34 @@ print(frase.lower()) # transforma o texto para minusculas.
 print(frase.capitalize())  # capitaliza (poe a primeira letra da frase) em caixa alta.
 print(frase.title()) # deixa maiuscula toda primeira letra de cada palavra da string.
 
-print(len(frase2))
+print(len(frase2)) # calculou o comprim. da frase 2.
 print(frase2)
-print(frase2.strip())
-print(frase2.rstrip()) 
-print(frase2.lstrip()) 
+print(frase2.strip()) # Remove os espaços em branco da esquerda e direita no input, fazendo com que, por exemplo: "   isso aqui  " vire: "isso aqui"
+print(frase2.rstrip()) # remove os espaços da direita
+print(frase2.lstrip()) # Remove os espaços da esquerda
+
+# ==divisão de strings
+print('======= Divisão de strings =======')
+
+print(frase)
+print(frase.split()) # separa palavras de uma string em elementos distintos numa array
+print('-'.join(frase)) # junta elementos de uma string utilizando um caractere escolhido.
+
+print('== Acessando o index de uma frase que sofreu slip:')
+
+frase3 = 'Faça elevar o cosmo no seu coração.'
+frase3div = frase3.split()
+print(frase3div[3][0]) # Como cada frase que sofre split vira um item dentro de uma array, podemos acessar o indice desta array, que sera uma das palavras, e então acessar um dos indices desta palavra que escolhermos, nesse caso, escolhemos o indice 3, que representa 'cosmo' e o indice 0 desta palavra, que representa 'c'.
+
+# =================================================
+print('Outros tópicos:')
+print(' ===== Escrevendo textos longos =====')
+# ps: isso parece com template literals do javascript.
+
+print("""Aprenda a usar HTML e CSS para criar páginas
+web. HTML é a linguagem de marcação com a qual você
+envolve o conteúdo, para instruir os navegadores 
+sobre cabeçalhos, listas, tabelas, etc. CSS é a 
+linguagem de estilos que você usa para estilizar 
+a página, para instruir os navegadores a alterar 
+a cor, a fonte, o layout e muito mais.""")
