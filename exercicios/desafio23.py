@@ -13,3 +13,4 @@ print('== unidades: \n{}'.format(n[3]))
 print('== dezenas: \n{}'.format(n[2]))
 print('== centenas: \n{}'.format(n[1]))
 print('== milhar: \n{}'.format(n[0]))
+
