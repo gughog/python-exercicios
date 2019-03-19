@@ -48,7 +48,7 @@ de texto, aporém iniciam na numeração 40:
 
 
 """
-
+""" 
 sal = int(input('Digite o seu \033[32msalário\033[m...\n'))
 div = int(input('Digite suas \033[31mdívidas\033[m...'))
 cores = {
@@ -64,4 +64,4 @@ cores = {
 if div > sal:
     print('Você está no \033[1;31;40mvermelho\033[m esse mês...')
 else:
-    print('Você está com as contas no \033[1;34;40mazul\033[m esse mês...')
+    print('Você está com as contas no \033[1;34;40mazul\033[m esse mês...') """
