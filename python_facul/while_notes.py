@@ -1,3 +1,7 @@
+# Exemplo de como utilizar o while numa aplicação simples:
+
+# Calculadora básica :
+
 n1 = int(input('Digite o primeiro valor...\n'))
 n2 = int(input('Digite o segundo valor...\n'))
 op = input('Digite o tipo de operação (som, sub)')
