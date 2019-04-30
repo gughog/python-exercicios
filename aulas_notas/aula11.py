@@ -65,3 +65,4 @@ if div > sal:
     print('Você está no \033[1;31;40mvermelho\033[m esse mês...')
 else:
     print('Você está com as contas no \033[1;34;40mazul\033[m esse mês...') """
+
