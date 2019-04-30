@@ -2,12 +2,12 @@
 
 # a) Apresentar os resultados de uma tabuada de multiplicar (de 1 até 10) de um número qualquer.
 
-    n = int(input('Digite um número de 1 a 10...\n'))
-    i = 1
+n = int(input('Digite um número de 1 a 10...\n'))
+i = 1
 
-    while i <= 10:
-        print('{} X {} = {}'.format(n, i, (n*i)))
-        i += 1
+while i <= 10:
+    print('{} X {} = {}'.format(n, i, (n*i)))
+    i += 1
 
 
 # b) Apresentar o total da soma obtida dos cem primeiros números inteiros (1+2+3+4+...+98+99+100).
@@ -87,8 +87,8 @@
     seg = 1
     fibo = []
     for i in range(qnt):
-    fibo.append( ant )
-    ant , seg  = seg, ant + seg
+        fibo.append( ant )
+        ant , seg  = seg, ant + seg
 
     print(fibo)
 
@@ -96,9 +96,9 @@
 
     cel = 10
     while cel <= 100:
-    fah = (9 * cel + 160) / 5
-    print ("Celsius=", cel, "Fahrenheit=", fah)
-    cel = cel + 10
+        fah = (9 * cel + 160) / 5
+        print ("Celsius=", cel, "Fahrenheit=", fah)
+        cel = cel + 10
 
 # Exercícios Repetição usando “Repita” ou “do ..while” (Não tem no python)
 
@@ -107,8 +107,8 @@
     n = 15
 
     while n <= 200:
-    print('Quadrado de {} = {}'.format(n, n*n))
-    n += 1
+        print('Quadrado de {} = {}'.format(n, n*n))
+        n += 1
 
 # 2) Elaborar um programa que apresente no final o somatório dos valores pares existentes na faixa de 1 até 500.
 
@@ -125,8 +125,8 @@
 # 3) Apresentar todos os números divisíveis por 4 que sejam menores que 200. Para verificar se o número é divisível por 4, efetuar dentro da malha a verificação lógica desta condição com a instrução se, perguntando se o número é divisível; sendo, mostre-o; não sendo, passe para o próximo passo. A variável que controlará o contador deve ser iniciada com o valor 1.
 
     for cont in range(200):
-    if cont % 4 == 0 and cont > 0:
-        print('Divisível por 04:', cont)
+        if cont % 4 == 0 and cont > 0:
+            print('Divisível por 04:', cont)
 
 # 4) Elaborar um programa que efetue o cálculo e no final apresente o somatório do número de grãos de trigo que se pode obter num tabuleiro de xadrez, obedecendo à seguinte regra: colocar um grão de trigo no primeiro quadro e nos quadros seguintes o dobro do quadro anterior. Ou seja, no primeiro quadro coloca-se 1 grão, no segundo quadro colocam-se 2 grãos (neste momento têm-se 3 grãos), no terceiro quadro colocam-se 4 grãos (tendo neste momento 7 grãos), no quarto colocam-se 8 grãos (tendo-se então 15 grãos) até atingir o sexagésimo quarto (64o) quadro. Utilize variáveis do tipo real como acumuladores.
 
@@ -135,9 +135,9 @@
     trigo_ttl = trigo
 
     while tab <= 64:
-    tab += 1
-    trigo *= 2
-    trigo_ttl += trigo
+        tab += 1
+        trigo *= 2
+        trigo_ttl += trigo
 
     print('Podem ser obtidos {} grãos num tabuleiro.'.format(trigo_ttl))
 
